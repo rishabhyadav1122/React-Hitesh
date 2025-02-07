@@ -40,11 +40,11 @@ const router = createBrowserRouter(
       <Route path="about" element={<About/>} />
       <Route path="contact" element={<Contact/>} />
       <Route path="user/:userid" element={<User/>} />
+      <Route path="github" element={<Github/>} />
+      
     </Route>
   )
 )
-
-
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
